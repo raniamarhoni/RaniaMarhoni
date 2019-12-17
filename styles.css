@@ -1,8 +1,7 @@
 body {
-    background-color: white;
+    background-color: #F6F6F6;
     font-family: 'Acme', sans-serif;
     margin: 0;
-    padding: 0;
 }
 
 /*----------HEADER----------*/
@@ -15,12 +14,12 @@ body {
 }
 
 .top {
-    box-align: center;
-    padding-top: 10%;
+    padding-top: 70px; 
 }
 
 .name {
     margin: 0;
+    padding: 0 20px;
     color: #E4B98D;
     text-decoration-line: underline;
     text-align: center;
@@ -28,7 +27,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    .name {
+   .top {
+        padding-top: 10%;
+   }
+   .name {
        font-size: 6em; 
     }
 }
@@ -37,5 +39,39 @@ body {
     color: #E4B98D;
     text-align: center;
     font-size: 2em;
-    margin: 10px
+    padding: 10px 20px;
+}
+
+/*----------NAVBAR----------*/
+
+.navbar-brand {
+    color: #E4B98D;
+    font-size: 15px;
+}
+
+.bar-icon {
+    width: 35px;
+    height: 5px;
+    background-color: #E4B98D;
+    margin: 6px 0;
+}
+
+.navbar {
+    background-color: rgb(220, 210, 190, 0.5);
+    text-align: right;
+}
+
+.nav-item a {
+    color: #E4B98D;
+    font-size: 15px;
+}
+
+.nav-item a:hover {
+    color: white;
+    background-color: #E4B98D;
+}
+
+.navbar .navbar-collapse {
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
 }
