@@ -4,13 +4,14 @@ body {
     margin: 0;
 }
 
-/*----------HEADER----------*/
+/*----------HOME----------*/
 .homepage {
     background-image: url('images/Home.jpg');
-    background-attachment: fixed;
+    background-attachment: inherit;
     background-size: cover;
     background-position: bottom;
     height: 100vh;
+    margin-bottom: 0px;
 }
 
 .top {
@@ -75,3 +76,65 @@ body {
     transition-timing-function: ease-in-out;
     transition-duration: 2s;
 }
+
+/*----------SECTION HEADERS----------*/
+.section-headers {
+    color: #E4B98D;
+    background-color: #F6F6F6;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 15px 30px;
+    width: fit-content;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-color: #E4B98D;
+    border-width: thick;
+    border-style: solid;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-headers {
+        font-size: 65px;
+    }
+}
+/*----------ABOUT ME----------*/
+
+.about-me-section {
+    background-image: url('images/Aboutme.jpg');
+    background-size: 100% 100%;
+    margin-top: 0px;
+    padding: 100px 0px 50px; 
+}
+
+.about-para {
+    color: #E4B98D;
+    background-color: white;
+    font-size: 20px;
+    text-align: center; 
+    padding: 20px;
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 20px;
+    border-color: #E4B98D;
+    border-width: thick;
+    border-style: solid;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .about-para {
+        font-size: 30px;
+        width: 70%;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .about-para {
+        font-size: 30px;
+        width: 60%;
+        padding: 30px;
+    }
+}
+
