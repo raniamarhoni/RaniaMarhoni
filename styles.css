@@ -1,16 +1,18 @@
 body {
     background-color: #F6F6F6;
     font-family: 'Acme', sans-serif;
-    margin: 0;
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /*----------HOME----------*/
 .homepage {
     background-image: url('images/Home.jpg');
-    background-attachment: inherit;
     background-size: cover;
     background-position: bottom;
     height: 100vh;
+    width: 100vw;
     margin-bottom: 0px;
 }
 
@@ -110,7 +112,7 @@ body {
 
 .about-para {
     color: #E4B98D;
-    background-color: white;
+    background-color: #F6F6F6;
     font-size: 20px;
     text-align: center; 
     padding: 20px;
@@ -138,3 +140,39 @@ body {
     }
 }
 
+/*----------SKILLS----------*/
+
+.skills-section {
+    background-image: url('images/Skills.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 50px;
+}
+
+.skills .row {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.circle {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #E4B98D;
+    border-width: 5px;
+    background-color: #F6F6F6;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto 0px;
+    text-align: center;
+    color: #E4B98D;
+    font-size: 30px;
+}
+
+.skill-text {
+    color: #E4B98D;
+    font-size: 30px;
+    text-align: center;
+    margin: 77px auto;
+    height: 45px;
+}
