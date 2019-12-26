@@ -80,20 +80,26 @@ body {
 }
 
 /*----------SECTION HEADERS----------*/
+
+.header-margin {
+    width: 90%;
+    margin: 0px auto;
+}
+
 .section-headers {
     color: #E4B98D;
-    background-color: #F6F6F6;
     font-size: 45px;
     text-align: center;
     letter-spacing: 5px;
     padding: 15px 30px;
-    width: fit-content;
-    margin: 0 auto;
     text-transform: uppercase;
+    background-color: #F6F6F6;
     border-radius: 20px;
     border-color: #E4B98D;
     border-width: thick;
     border-style: solid;
+    width: fit-content;
+    margin: 0px auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -101,6 +107,7 @@ body {
         font-size: 65px;
     }
 }
+
 /*----------ABOUT ME----------*/
 
 .about-me-section {
@@ -176,3 +183,101 @@ body {
     margin: 77px auto;
     height: 45px;
 }
+
+/*----------WORK HISTORY----------*/
+
+.work-section{
+    background-image: url('images/Work.jpg');
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 100px 0px 50px; 
+    width: 100%;
+}
+
+.history-margin {
+    margin: 50px auto 50px;
+    width: fit-content;
+}
+
+.work-history {
+    background-color: #F6F6F6;
+    border: 5px solid #E4B98D;
+    border-radius: 20px;
+    padding: 20px;
+    width: fit-content;
+    margin: 0px 20px;
+}
+
+.history-items {
+    display: inline-block;
+}
+
+.timeline-item {
+ padding: 4em 2em 0em 2em;
+ position: relative;
+ color: #E4B98D;
+ border-left: 5px solid #E4B98D;
+
+}
+
+.timeline-item p {
+ padding: 0;
+ margin: 0;
+}
+
+.timeline-item:before {
+ content: attr(data-dates);
+ position: absolute;
+ left: 2.5em;
+ top: 3em;
+ display: block;
+ font-weight: 500;
+ font-size: 0.8em;
+ padding: 0;
+ margin: 0;
+}
+
+.timeline-item:after {
+ width: 20px;
+ height: 20px;
+ display: block;
+ position: absolute;
+ border-radius: 12px;
+ content: '';
+ background: #E4B98D;
+ top: 2.4em;
+ left: -12px;
+}
+
+@media only screen and (min-width: 992px) {
+    .work-section {
+        background-image: url('images/Work.jpg');
+        background-size: 50% 100%; 
+        background-repeat: repeat-x;      
+        margin: 0px;
+        padding: 100px 30px 50px;
+        width: 100%;
+    }
+        
+    .history-items {
+        display: inline-flex;
+        max-width: 840px;
+    }
+
+    .timeline-item {
+        border-top: 5px solid #E4B98D;
+        width: 33%;
+        border-left: 0px none;
+        padding: 2em 2em 0em 2em;
+        text-align: center;
+    }
+
+    .timeline-item:before {
+        position: initial;
+    }
+
+    .timeline-item:after {
+        top: -13px;
+        left: 128.5px;
+    }
+
