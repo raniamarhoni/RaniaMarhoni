@@ -94,12 +94,31 @@ body {
     padding: 15px 30px;
     text-transform: uppercase;
     background-color: #F6F6F6;
+    border: 5px solid #E4B98D;
     border-radius: 20px;
-    border-color: #E4B98D;
-    border-width: thick;
-    border-style: solid;
     width: fit-content;
     margin: 0px auto;
+}
+
+.portfolio-header {
+    color: #E4B98D;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 15px 5px;
+    text-transform: uppercase;
+    background-color: #F6F6F6;
+    border: 5px solid #E4B98D;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+@media only screen and (min-width: 375px) {
+    .portfolio-header {
+        padding: 15px 30px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -125,10 +144,8 @@ body {
     padding: 20px;
     width: 80%;
     margin: 50px auto;
+    border: 5px solid #E4B98D;
     border-radius: 20px;
-    border-color: #E4B98D;
-    border-width: thick;
-    border-style: solid;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -163,10 +180,8 @@ body {
 }
 
 .circle {
+    border: 5px solid #E4B98D;
     border-radius: 50%;
-    border-style: solid;
-    border-color: #E4B98D;
-    border-width: 5px;
     background-color: #F6F6F6;
     width: 200px;
     height: 200px;
@@ -182,6 +197,7 @@ body {
     text-align: center;
     margin: 77px auto;
     height: 45px;
+    font-weight: 600;
 }
 
 /*----------WORK HISTORY----------*/
@@ -280,4 +296,75 @@ body {
         top: -13px;
         left: 128.5px;
     }
+}
 
+/*----------PORTFOLIO----------*/
+
+.portfolio-section{
+    background-image: url('images/Portfolio.jpg');
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 100px 0px; 
+    width: 100%;
+}
+
+.projects-card{
+    width: 90%;
+    padding: 0px;
+    margin: 0px auto;
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .projects-card{
+        width:80%
+    }
+}
+
+.cards{
+    background-color: #F6F6F6;
+    margin: 50px auto 0px;
+    width: 250px;
+    height: 340px;
+    border: 5px solid #E4B98D;
+    border-radius: 20px;
+    padding: 40px 20px;
+    color: #E4B98D;
+}
+
+.icon-row {
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+.card-link {
+    margin: 0px auto;
+}
+
+.desktop-icon {
+    padding: 7px 5px;
+    border-radius: 10px;
+    font-size: 40px;
+    width: 65px;
+    height: 65px;
+    border: 5px solid #E4B98D;
+    background-color: #F6F6F6;
+    color: #E4B98D;
+    display: inline-block;
+    margin: 0px auto;
+}
+
+.github-icon {
+    padding: 5px 6px;
+    border-radius: 10px;
+    font-size: 46px;
+    width: 65px;
+    height: 65px;
+    border: 5px solid #E4B98D;
+    background-color: #F6F6F6;
+    color: #E4B98D;
+    display: inline-block;
+    margin: 0px auto;
+}
