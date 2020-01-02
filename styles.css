@@ -125,6 +125,10 @@ body {
     .section-headers {
         font-size: 65px;
     }
+    
+    .portfolio-header {
+        font-size: 65px;
+    }
 }
 
 /*----------ABOUT ME----------*/
