@@ -128,6 +128,7 @@ body {
 }
 
 /*----------ABOUT ME----------*/
+/*--Header above--*/
 
 .about-me-section {
     background-image: url('images/Aboutme.jpg');
@@ -146,6 +147,7 @@ body {
     margin: 50px auto;
     border: 5px solid #E4B98D;
     border-radius: 20px;
+    font-family: sans-serif;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -165,6 +167,7 @@ body {
 }
 
 /*----------SKILLS----------*/
+/*--Header above--*/
 
 .skills-section {
     background-image: url('images/Skills.jpg');
@@ -198,9 +201,11 @@ body {
     margin: 77px auto;
     height: 45px;
     font-weight: 600;
+    font-family: sans-serif;
 }
 
 /*----------WORK HISTORY----------*/
+/*--Header above--*/
 
 .work-section{
     background-image: url('images/Work.jpg');
@@ -222,6 +227,7 @@ body {
     padding: 20px;
     width: fit-content;
     margin: 0px 20px;
+    font-family: sans-serif;
 }
 
 .history-items {
@@ -299,6 +305,7 @@ body {
 }
 
 /*----------PORTFOLIO----------*/
+/*--Icons below and header above--*/
 
 .portfolio-section{
     background-image: url('images/Portfolio.jpg');
@@ -312,7 +319,7 @@ body {
     width: 90%;
     padding: 0px;
     margin: 0px auto;
-
+    font-family: sans-serif;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -344,6 +351,7 @@ body {
 
 
 /*----------CONTACT----------*/
+/*--Header above--*/
 
 .contact-section {
     background-image: url('images/Contact.jpg');
@@ -368,10 +376,12 @@ body {
     padding: 10px;
     width: 90%;
     max-width: 550px;
+    font-family: sans-serif;
 }
 
 .form-box::placeholder{
     color: #E4B98D;
+    font-family: sans-serif;
 }
 
 .message-box{
@@ -384,11 +394,13 @@ body {
     padding: 10px;
     width: 90%;
     max-width: 550px;
+    font-family: sans-serif;
 }
 
 
 .message-box::placeholder{
     color: #E4B98D;
+    font-family: sans-serif;
 }
 
 .btn-style{
@@ -400,6 +412,7 @@ body {
     border-radius: 10px;
     font-weight: 500;
     padding: 10px;
+    font-family: sans-serif;
 }
 
 /*----------FOOTER----------*/
