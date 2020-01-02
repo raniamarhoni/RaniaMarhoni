@@ -56,17 +56,13 @@
 
 <!--*******ABOUT ME SECTION *******-->
 <section class="about-me-section" id="about">
-    <div class="header-margin">
     <h2 class="section-headers">About</h2>
-    </div>
     <p class='about-para'>I'm a skilled full stalk developer with a background in art and design. I'm a ambitious hardworking individual who is not afraid of new challenges. I have a versatile skill set and use creative approaches to problem solve.</p>
 </section>
 
 <!--*******SKILLS SECTION *******-->
 <section class="skills-section" id="skills">
-    <div class="header-margin">
-        <h2 class="section-headers">Skills</h2>
-    </div>
+    <h2 class="section-headers">Skills</h2>
     <div class="skills row">
         <div class="col-sm-12 col-md-6 col-lg-4"><div class="circle"><p class="skill-text">HTML</p></div></div>
         <div class="col-sm-12 col-md-6 col-lg-4"><div class="circle"><p class="skill-text">CSS</p></div></div>
@@ -79,8 +75,9 @@
 
 <!--*******WORK HISTORY SECTION *******-->
 <section class="work-section" id="work">
+
     <div class="header-margin">
-        <h2 class="section-headers">Work History</h3>
+        <h2 class="section-headers">Work History</h2>
     </div>
 
     <div class="history-margin">
@@ -106,7 +103,7 @@
 </section>
 
 <section class="portfolio-section" id="portfolio"> 
-    <h2 class="portfolio-header">Portfolio</h3>
+    <h2 class="portfolio-header">Portfolio</h2>
 
 <div class="projects-card">
 <div class="row">
@@ -158,6 +155,43 @@
 </div>
 </section>
 
+<!--*******CONTACT SECTION *******-->
+<section class="contact-section" id="contact">
+    <h2 class="section-headers">Contact</h2>
+    <form id='contact-form'>
+        <input type="text" class="form-box" name='Name' placeholder="Name" required>
+        <input type="text" class="form-box" name='Phone' placeholder="Phone" required>
+        <input type="email" class="form-box" name='Email' placeholder="Email" required>
+        <textarea class="message-box" name="message" rows="6" placeholder="Message" required></textarea>
+        <input type="submit" value='Send' class="btn-style">
+    </form>
+</section>
+
+<footer>
+    <div class="footer-icon-row">
+        <a href="#" class="card-link"><i href="#" class="fab fa-linkedin-in linkedin-icon"></i></a>
+        <a href="#" class="card-link"><i href="#" class="fab fa-github github-icon "></i></a>
+        <a href="#" class="card-link"><i href="#" class="fas fa-file-download download-icon "></i></a>
+    </div>
+</footer>
+
+<!-- *******CONTACT FORM MODAL******* -->
+<div class="modal fade" tabindex="-1" role="dialog" id='contactFormModal'>
+        <div class="modal-dialog" role="document">
+            <div class="modal-border modal-content">
+                <div class="modal-header-border modal-header">
+                    <h4 class="modal-title">Contact Form</h4>
+                    <button type="button" class="close" data-dismiss="modal" style='text-align: right;' aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>This contact form does not currently send messages or collect any personal information. Furthermore, this site does not collect any personal data.</p>  
+                    <div class="modal-footer-border modal-footer">
+                        <button class='modal-btn btn' data-dismiss="modal">I Understand!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 </body>
@@ -165,5 +199,5 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+<script src="index.js"></script>
 </html>
