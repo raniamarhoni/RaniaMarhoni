@@ -8,7 +8,7 @@ body {
 
 /*----------HOME----------*/
 .homepage {
-    background-image: url('assets/images/Home.jpg');
+    background-image: url('../images/Home.jpg');
     background-size: cover;
     background-position: bottom;
     height: 100vh;
@@ -135,7 +135,7 @@ body {
 /*--Header above--*/
 
 #about {
-    background-image: url('assets/images/Aboutme.jpg');
+    background-image: url('../images/Aboutme.jpg');
     background-size: 100% 100%;
     margin-top: 0px;
     padding: 100px 0px 50px; 
@@ -174,7 +174,7 @@ body {
 /*--Header above--*/
 
 #skills {
-    background-image: url('assets/images/Skills.jpg');
+    background-image: url('../images/Skills.jpg');
     background-size: cover;
     background-position: center;
     margin: 0px;
@@ -212,7 +212,7 @@ body {
 /*--Header above--*/
 
 #work{
-    background-image: url('assets/images/Work.jpg');
+    background-image: url('../images/Work.jpg');
     background-size: 100% 100%;
     margin: 0px;
     padding: 100px 0px 50px; 
@@ -277,7 +277,7 @@ body {
 
 @media only screen and (min-width: 992px) {
     #work {
-        background-image: url('assets/images/Work.jpg');
+        background-image: url('../images/Work.jpg');
         background-size: 50% 100%; 
         background-repeat: repeat-x;      
         margin: 0px;
@@ -312,7 +312,7 @@ body {
 /*--Icons below and header above--*/
 
 #portfolio{
-    background-image: url('assets/images/Portfolio.jpg');
+    background-image: url('../images/Portfolio.jpg');
     background-size: 100% 100%;
     margin: 0px;
     padding: 100px 0px; 
@@ -358,7 +358,7 @@ body {
 /*--Header above--*/
 
 #contact {
-    background-image: url('assets/images/Contact.jpg');
+    background-image: url('../images/Contact.jpg');
     background-size: 100% 100%;
     margin: 0px;
     padding: 100px 0px; 

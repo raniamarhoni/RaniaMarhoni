@@ -11,14 +11,22 @@ This website is for prospective clients and recruiters.
 
 ### Statergy
 The aim was to create a user-friendly minimalist design where users access information  
+
 ### Scope
 I wanted to provide them with a brief overview of myself and my capabilities for prospective employers and recruiters. They get to see who I am, my work history work, skills and work I've done and be able to contact me if they wish also they can download my CV if they wish to find out more details. 
+
 ### Structure
 In the portfolio section it's set up to provide a short description of the project and techlogies used with a link to the Github and demo. 
 In the navigation and footer they are able to download my CV. The user can also access my Linkedin and GitHub at the footer too. 
 
 ### Skeleton
 With xd I was able to come up with a skelton for phone, tablet and webpage see below
+
+[iPhone 6, 7 & 8 Plus](https://github.com/raniamarhoni/RaniaCV/blob/master/assets/wireframes/iPhone%206-7-8%20Plus%20%E2%80%93%201.png)
+
+[Tablet iPad](https://github.com/raniamarhoni/RaniaCV/blob/master/assets/wireframes/Tablet%20-%20iPad.png)
+
+[Webpage 1920](https://github.com/raniamarhoni/RaniaCV/blob/master/assets/wireframes/Web%201920%20%E2%80%93%201.png)
 
 ### Surface
 The backgrounds where chosen to create a creative feel with a goldish color scheme to create sleek and modern feel.
