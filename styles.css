@@ -134,7 +134,7 @@ body {
 /*----------ABOUT ME----------*/
 /*--Header above--*/
 
-.about-me-section {
+#about {
     background-image: url('images/Aboutme.jpg');
     background-size: 100% 100%;
     margin-top: 0px;
@@ -173,7 +173,7 @@ body {
 /*----------SKILLS----------*/
 /*--Header above--*/
 
-.skills-section {
+#skills {
     background-image: url('images/Skills.jpg');
     background-size: cover;
     background-position: center;
@@ -211,7 +211,7 @@ body {
 /*----------WORK HISTORY----------*/
 /*--Header above--*/
 
-.work-section{
+#work{
     background-image: url('images/Work.jpg');
     background-size: 100% 100%;
     margin: 0px;
@@ -276,7 +276,7 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-    .work-section {
+    #work {
         background-image: url('images/Work.jpg');
         background-size: 50% 100%; 
         background-repeat: repeat-x;      
@@ -311,7 +311,7 @@ body {
 /*----------PORTFOLIO----------*/
 /*--Icons below and header above--*/
 
-.portfolio-section{
+#portfolio{
     background-image: url('images/Portfolio.jpg');
     background-size: 100% 100%;
     margin: 0px;
@@ -357,7 +357,7 @@ body {
 /*----------CONTACT----------*/
 /*--Header above--*/
 
-.contact-section {
+#contact {
     background-image: url('images/Contact.jpg');
     background-size: 100% 100%;
     margin: 0px;
@@ -482,8 +482,13 @@ body {
 
 /*----------CONTACT MODEL----------*/
 
+.modal-title {
+    color: #E4B98D;
+}
+
 .modal-body {
     font-size: 19px;
+    font-family: sans-serif;
 }
 
 .modal-border.modal-content {
@@ -492,8 +497,9 @@ body {
 }
 
 .modal-btn.btn {
-    border: 2px solid #E4B98D;
+    border: 5px solid #E4B98D;
     border-radius: 10px;
+    font-family:sans-serif;
 }
 
 .modal-footer-border.modal-footer {
