@@ -4,8 +4,8 @@ Stream One Project: User-Centric Frontend Development - Code Institute
 This is my Portfolio/CV Website to present to prospective employers and recruiters. It includes a about me section, my skills, work history, a portfolio to add future projects and a contact form.
 
 ## UX Design
-### User Studies
-This website is for prospective clients and recruiters to be able to see my skills, a brief overview of my work history and portfolio they are then able to download my CV if they wish to see more detail.
+### User Story
+As a new person in the industry I want the website to be seen by prospective clients and recruiters to be able to see my skills, a brief overview of my work history and portfolio they are then able to download my CV if they wish to see more detail. This is so I can develop connections within the industry and be able to get projects to work on in the future.
 ### Strategy
 The aim was to create a user-friendly minimalist design where users would be able to access information easily.
 ### Scope
@@ -28,6 +28,8 @@ The backgrounds where chosen to create a creative feel with a goldish colour sch
 
 The work history section adjusts its view depending on the screen size. On a small or medium screen, it is shown in portrait to show a more minimalist design but a landscape view on a large screen so it can take advantage of the space. 
 
+In the contact form a contact modal was added to make sure people were aware that that this site does not record their data, and nothing will happen. 
+
 ### Features left to Implement
  I would like to add future projects in the portfolio section. 
 
@@ -49,12 +51,13 @@ All the coding was done to fit the mobile-first approach making sure each screen
 All the links have been manually tested to make sure that they take you to the right section of the webpage or opens a new tab using the target=”_blank” and take you to the right destination too. 
 ### Platforms and Sizes 
 The project was tested across multiple screens (iPhone 5, 6, 7 Chrome and Safari, iPad, Samsung Galaxy) during testing I realised that some of the headers were not fitting in a iPhone 5 screen and therefor was edited to fit in a smaller screen but returned to the original size when used on a bigger screen
+### Validator
+The HTML and CSS was also put in a validator to make sure all errors found was fixed and no errors were uploaded. 
 
 ## Deployment
 This site uses GitHub pages, deployed directly from the master branch. For the site to deploy correctly on GitHub pages, the landing page must be named index.html. When a new commit is done it will update automatically to the master branch. 
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/raniamarhoni/RaniaCV.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
-
 
 ## Credits
 ### Content
