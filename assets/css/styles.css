@@ -53,6 +53,7 @@ body {
 }
 
 .bar-icon {
+    display: block;
     width: 35px;
     height: 5px;
     background-color: #E4B98D;
