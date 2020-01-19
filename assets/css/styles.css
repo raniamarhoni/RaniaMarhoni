@@ -137,7 +137,8 @@ body {
 
 #about {
     background-image: url('../images/Aboutme.jpg');
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: left;
     margin-top: 0px;
     padding: 100px 0px 50px; 
 }
@@ -214,7 +215,8 @@ body {
 
 #work{
     background-image: url('../images/Work.jpg');
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     margin: 0px;
     padding: 100px 0px 50px; 
     width: 100%;
@@ -277,13 +279,8 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-    #work {
-        background-image: url('../images/Work.jpg');
-        background-size: 50% 100%; 
-        background-repeat: repeat-x;      
-        margin: 0px;
+    #work {  
         padding: 100px 30px 50px;
-        width: 100%;
     }
         
     .history-items {
@@ -314,7 +311,8 @@ body {
 
 #portfolio{
     background-image: url('../images/Portfolio.jpg');
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     margin: 0px;
     padding: 100px 0px; 
     width: 100%;
@@ -360,7 +358,8 @@ body {
 
 #contact {
     background-image: url('../images/Contact.jpg');
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     margin: 0px;
     padding: 100px 0px; 
     width: 100%;
