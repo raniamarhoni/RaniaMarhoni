@@ -61,8 +61,6 @@ This site uses GitHub pages, deployed directly from the master branch. For the s
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/raniamarhoni/RaniaCV.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
-To deploy the site 
-
 ## Credits
 ### Content
 All content in this site was written by me.
