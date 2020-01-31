@@ -59,7 +59,7 @@ The HTML and CSS was also put in a validator to make sure all errors found was f
 ## Deployment
 This site uses GitHub pages, deployed directly from the master branch. For the site to deploy correctly on GitHub pages, the landing page must be named index.html. When a new commit is done it will update automatically to the master branch. 
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/raniamarhoni/RaniaCV.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/raniamarhoni/RaniaMarhoni.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ## Credits
 ### Content
