@@ -5,7 +5,7 @@ This is my Portfolio/CV Website to present to prospective employers and recruite
 
 ## UX Design
 ### User Story
-As a new person in the industry I want the website to be seen by prospective clients and recruiters to be able to see my skills, a brief overview of my work history and portfolio they are then able to download my CV if they wish to see more detail. This is so I can develop connections within the industry and be able to get projects to work on in the future.
+As a prospective client or recruiter, I expect to see skills they provide, a brief overview of there work history, a portfolio and be able to download their CV.
 ### Strategy
 The aim was to create a user-friendly minimalist design where users would be able to access information easily.
 ### Scope
@@ -55,10 +55,13 @@ The project was tested across multiple screens (iPhone 5, 6, 7 Chrome and Safari
 The background images were changed at the end so they are cropped and not stretched
 ### Validator
 The HTML and CSS was also put in a validator to make sure all errors found was fixed and no errors were uploaded. 
+
 ## Deployment
 This site uses GitHub pages, deployed directly from the master branch. For the site to deploy correctly on GitHub pages, the landing page must be named index.html. When a new commit is done it will update automatically to the master branch. 
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/raniamarhoni/RaniaCV.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+To deploy the site 
 
 ## Credits
 ### Content
