@@ -278,22 +278,27 @@ body {
  left: -12px;
 }
 
+
 @media only screen and (min-width: 992px) {
     #work {  
         padding: 100px 30px 50px;
     }
         
     .history-items {
-        display: inline-flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         max-width: 840px;
+        margin: 0 auto;
     }
 
     .timeline-item {
         border-top: 5px solid #E4B98D;
-        width: 33%;
+        width: calc(33% - 20px);
         border-left: 0px none;
-        padding: 2em 2em 0em 2em;
+        padding: 2em;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .timeline-item:before {
@@ -302,10 +307,9 @@ body {
 
     .timeline-item:after {
         top: -13px;
-        left: 128.5px;
+        left: calc(50% - 10px);
     }
 }
-
 /*----------PORTFOLIO----------*/
 /*--Icons below and header above--*/
 
