@@ -13,6 +13,12 @@
     <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
     <!--CSS LINK-->
     <link rel="stylesheet" href="assets/css/styles.css">
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="assets/libraries/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+    
     <title>Rania Marhoni</title>
 </head>
 
@@ -167,12 +173,12 @@
                 <!--portfolio card 1-->
                 <div class="col-sm-12 col-md-6 col-xl-3">
                     <div class="cards">
-                        <h4>Project Name</h4>
-                        <p>HTML, CSS</p>
-                        <p>Small project description of around 3 / 4 lines the other line</p>
+                        <h4>Portfolio</h4>
+                        <p class="card-text">HTML, CSS</p>
+                        <p class="card-text">This current website is to showcase my coding projects. To explore my work and easily get in touch with me through my contact page. </p>
                         <div class="icon-row">
-                            <a href="#portfolio" class="card-link"><i class="fas fa-desktop desktop-icon"></i></a>
-                            <a href="#portfolio" class="card-link"><i class="fab fa-github github-icon"></i></a>
+                            <!--<a href="#portfolio" class="card-link"><i class="fas fa-desktop desktop-icon"></i></a>-->
+                            <a href="https://github.com/raniamarhoni/RaniaMarhoni" target="_blank" class="card-link"><i class="fab fa-github github-icon"></i></a>
                         </div>
                     </div>
                 </div>
@@ -219,10 +225,10 @@
     <!--*******CONTACT SECTION *******-->
     <section id="contact">
         <h2 class="section-headers">Contact</h2>
-        <form id='contact-form'>
-            <input type="text" class="form-box" name='Name' placeholder="Name" required>
-            <input type="text" class="form-box" name='Phone' placeholder="Phone">
-            <input type="email" class="form-box" name='Email' placeholder="Email" required>
+        <form id='contact-form' onsubmit="sendEmail(); return false;">
+            <input type="text" class="form-box" name='name' placeholder="Name" required>
+            <input type="text" class="form-box" name='phone' placeholder="Phone">
+            <input type="email" class="form-box" name='email' placeholder="Email" required>
             <textarea class="message-box" name="message" rows="6" placeholder="Message" required></textarea>
             <input type="submit" value='Send' class="btn-style">
         </form>
@@ -246,7 +252,7 @@
                     <button type="button" class="close" data-dismiss="modal" style='text-align: right;' aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
-                    <p>This contact form does not currently send messages or collect any personal information. Furthermore, this site does not collect any personal data.</p>
+                    <p>Message Sent</p>
                     <div class="modal-footer-border modal-footer">
                         <button class='modal-btn btn' data-dismiss="modal">I Understand!</button>
                     </div>
@@ -255,9 +261,6 @@
         </div>
     </div>
 
-    <script src="assets/libraries/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="assets/js/index.js"></script>
 
 </body>
 

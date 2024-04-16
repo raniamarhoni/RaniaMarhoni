@@ -342,8 +342,12 @@ body {
     height: 340px;
     border: 5px solid #E4B98D;
     border-radius: 20px;
-    padding: 40px 20px;
+    padding: 30px 20px;
     color: #E4B98D;
+}
+
+.card-text{
+    margin: 0px
 }
 
 .icon-row {
