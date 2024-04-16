@@ -1,6 +1,6 @@
 function sendEmail() {
   // Fetch the configuration from the JSON file
-  fetch('config.json')
+  fetch('assets/js/config.json')
     .then(response => response.json())
     .then(data => {
       // Extract EmailJS service ID and template ID from the JSON data
@@ -11,14 +11,17 @@ function sendEmail() {
       var templateParams = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
-        Phone: document.getElementById("phone").value,
+        phone: document.getElementById("phone").value,
         message: document.getElementById("message").value
       };
       
       // Send email using EmailJS
       emailjs.send(serviceID, templateID, templateParams)
         .then(function(response) {
-          alert("Email sent successfully!");
+          // Reset form after successful submission
+          document.getElementById("contact-form").reset();
+          // Show modal or alert
+          $('#contactFormModal').modal('show');
         })
         .catch(function(error) {
           console.error("Error sending email:", error);
