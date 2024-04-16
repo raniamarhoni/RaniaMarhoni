@@ -28,7 +28,7 @@ The backgrounds where chosen to create a creative feel with a goldish colour sch
 
 The work history section adjusts its view depending on the screen size. On a small or medium screen, it is shown in portrait to show a more minimalist design but a landscape view on a large screen so it can take advantage of the space. 
 
-In the contact form a contact modal was added to make sure people were aware that that this site does not record their data, and nothing will happen. 
+A contact form has been added to be sent directly to my email and the user also gets a email sending confirmation that the email was sent. This uses EmailJS to send all the emails 
 
 ### Features left to Implement
  I would like to add future projects in the portfolio section. 
@@ -37,6 +37,8 @@ In the contact form a contact modal was added to make sure people were aware tha
 1.	HTML
 2.	CSS
 3.	Bootstrap (3.3.7)
+4.  Javascript
+
 
 ## Testing
 ### Homepage / Navbar 
@@ -44,7 +46,7 @@ The navbar has been manually tested to make sure it expands on a large screen bu
 ### Work History Section
 This section was manually tested to make sure the timeline appears in a landscape view on a mobile and tablet view but appears in portrait view when displayed on a large screen this. 
 ### Contact
-In the contact form it’s has been tested if they enter an invalid email address also the fields ‘name’, ‘email’ and ‘message’ are all required and will flag up if they are not inputted in. As I haven’t learned JavaScript, yet the form will not send but a pop up comes up mentioning it. 
+In the contact form it’s has been tested if they enter an invalid email address also the fields ‘name’, ‘email’ and ‘message’ are all required and will flag up if they are not inputted in. Then testing has been added that when they do send a message it come through to my email and the users email 
 ### Mobile-first approach
 All the coding was done to fit the mobile-first approach making sure each screen utilities the space it has this has been manually tested and represented in the about me, skills and portfolio sections. 
 ### Links
