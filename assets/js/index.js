@@ -1,4 +1,15 @@
 function sendEmail() {
+  // Initialize EmailJS with your public key
+  emailjs.init('8LoNusw-cP50PcckJ');
+
+  // Create templateParams object using form values
+  var templateParams = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    phone: document.getElementById("phone").value,
+    message: document.getElementById("message").value
+  };
+  
   // Fetch the configuration from the JSON file
   fetch('assets/js/config.json')
     .then(response => response.json())
@@ -6,14 +17,6 @@ function sendEmail() {
       // Extract EmailJS service ID and template ID from the JSON data
       const serviceID = data.emailjs.service_id;
       const templateID = data.emailjs.template_id;
-
-      // Create templateParams object using form values
-      var templateParams = {
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        phone: document.getElementById("phone").value,
-        message: document.getElementById("message").value
-      };
       
       // Send email using EmailJS
       emailjs.send(serviceID, templateID, templateParams)
